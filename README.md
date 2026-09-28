@@ -3,10 +3,12 @@
 BYZIQO's complete static frontend, hosted with GitHub Pages.
 
 - Project: **BYZIQO**
+- Website: http://byziqo.xyz/
 - Network: Solana
 - X: https://x.com/BYZIQOSOL
-- Launch platform: https://pump.fun/
-- Contract address (CA): **Pending — to be provided by the project owner.**
+- Launch status: **Live on pump.fun**
+- Official contract address (CA): `F5CX85sx3ZjLyo4NzuH6VwQdKcqAzGYetzuezyYbpump`
+- Token page: https://pump.fun/coin/F5CX85sx3ZjLyo4NzuH6VwQdKcqAzGYetzuezyYbpump
 
 ## Run locally
 
@@ -20,11 +22,11 @@ Open http://localhost:8080. Pages use hash routes, so direct navigation also wor
 
 ## Publish
 
-In GitHub Settings → Pages, select **Deploy from a branch**, **main**, and **/(root)**. The `.nojekyll` file keeps this a plain static site. The owner will provide a custom domain later.
+GitHub Pages deploys from **main**, **/(root)**. The `.nojekyll` file keeps this a plain static site. The existing `CNAME` binds `byziqo.xyz` and should be preserved when updating the website.
 
 ## Update launch details
 
-Edit the `PROJECT` configuration in `index.html`. Set `contractAddress` only after the owner supplies the official CA. Set `launchConfirmed` to `true` only after launch is confirmed, then commit the update.
+Edit the `PROJECT` configuration in `index.html` only with launch details confirmed by the project owner. The official CA and confirmed launch flag power the address display, Copy CA controls, and direct pump.fun links. Keep the homepage, launch FAQ, and footer wording consistent with the configuration.
 
 ## Current functionality
 
