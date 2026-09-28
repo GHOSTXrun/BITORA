@@ -7,8 +7,6 @@ BYZIQO's complete static frontend, hosted with GitHub Pages.
 - Network: Solana
 - X: https://x.com/BYZIQOSOL
 - Launch status: **Live on pump.fun**
-- Official contract address (CA): `F5CX85sx3ZjLyo4NzuH6VwQdKcqAzGYetzuezyYbpump`
-- Token page: https://pump.fun/coin/F5CX85sx3ZjLyo4NzuH6VwQdKcqAzGYetzuezyYbpump
 
 ## Run locally
 
@@ -26,7 +24,7 @@ GitHub Pages deploys from **main**, **/(root)**. The `.nojekyll` file keeps this
 
 ## Update launch details
 
-Edit the `PROJECT` configuration in `index.html` only with launch details confirmed by the project owner. The official CA and confirmed launch flag power the address display, Copy CA controls, and direct pump.fun links. Keep the homepage, launch FAQ, and footer wording consistent with the configuration.
+Edit the `PROJECT` configuration in `index.html` only with launch details confirmed by the project owner. The confirmed launch flag controls the launch status. Project links use the pump.fun homepage; the project contract address and its copy controls are not published on this website. Keep the homepage, launch FAQ, and footer wording consistent with the configuration.
 
 ## Current functionality
 
